@@ -1,0 +1,571 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+
+nav a {
+    padding: 5px;
+    color: black;
+    font-size: .9em;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+
+/* .title1 {
+    border-bottom: solid !important;
+    border-image: linear-gradient(to right, rgb(89, 200, 228), white) 1
+} */
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-50 {
+    height: 200px;
+}
+
+.w-70 {
+    width: 70%
+}
+
+.container {
+    margin: auto;
+    width: 95%;
+}
+
+.main-photo {
+    background-image: url(../img/banner.jpg);
+    /*position: relative;*/
+    height: 45rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: 15%;
+
+}
+
+.photlink {
+    text-align: center;
+    padding-top: 15rem;
+    background: rgba(0, 0, 0, 0.7);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    height: 45rem;
+    width: 100%;
+    margin: auto;
+}
+
+.photlink h1 a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.photlink p {
+    color: white;
+    font-size: 1em;
+}
+
+.photlink a span {
+    color: rgb(110, 187, 223);
+}
+
+.photlink h1 a:hover,
+a span:hover {
+    color: yellow;
+}
+
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+.btn:hover {
+    color: rgb(255, 255, 255) !important;
+   
+}
+
+.btn {
+    color: rgb(22, 137, 231);
+    background-color: transparent;
+    padding: 20px;
+    border: solid thin rgb(13, 133, 231);
+    font-size: 20px;
+}
+
+.about-us,
+.services,
+.our-team,
+.testimonial,
+.contact-us {
+    text-align: center;
+}
+
+.about-us h1,
+.services h1,
+.our-team h1,
+.our-portfolio h1,
+.our-pricing h1,
+.contact-us h1 {
+    color: black;
+    font-size: 2em
+}
+
+.about-us span,
+.services span,
+.our-team span,
+.our-portfolio span,
+.testimonial span,
+.our-pricing span,
+.contact-us span {
+    color: rgb(110, 187, 223);
+   border-top: none !important;border-left: none !important;border-right: none !important;
+    border-bottom: solid !important;
+    border-image: linear-gradient(to right, rgb(89, 200, 228), white) 1
+}
+
+.testimonial h1 {
+    color: rgb(253, 251, 251);
+    font-size: 2em
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: black;
+
+}
+
+ul a:hover {
+    color: rgb(218, 35, 35);
+}
+
+.about-left p,
+.about-right p {
+    font-size: 20px;
+}
+
+.fa-hand-point-right {
+    padding-right: 20px;
+    color: cornflowerblue;
+}
+
+li {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+
+.tree {
+    position: relative;
+    height: 20rem;
+    width: 100%;
+    background-image: url(../img/parallex-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.link-tree div {
+    padding: 2rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    height: 20rem;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.services {
+    background-color: rgb(235, 232, 232);
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    border: solid transparent;
+}
+
+.service-container,
+.container-our-team,
+.our-pricing {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* .serv {
+    padding: 2rem;
+    background-color: white;
+    display: inline-block;
+    width: 31%;
+    height: 300px;
+    margin: 1rem;
+} */
+
+.fas,
+.far {
+    color: rgb(110, 187, 223);
+    font-size: 30px;
+}
+
+.container-our-team img {
+    padding: 2rem;
+    width: 22.5%;
+}
+
+
+/*.counters{margin:auto ; width: 100%;}*/
+
+.counters {
+    background-repeat: no-repeat;
+    background-image: url(../img/counters-bg.jpg);
+    background-position: top;
+    height: 20rem;
+    width: 100%;
+}
+
+.counter-container {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 20rem;
+    border: solid;
+    overflow: hidden;
+}
+
+.cnt {
+    display: inline-block;
+    padding: 2rem;
+    color: white;
+    /* width: 19%; */
+    font-size: 2rem;
+    text-align: center;
+}
+
+.counter-container .cnt .far,
+.fas {
+    font-size: 3rem;
+    color: gray;
+}
+
+.counter-container i:hover ,
+.counter-container .far:hover 
+{
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.port-links a {
+    border: solid thin rgb(120, 206, 218);
+    color: rgb(72, 96, 99);
+    padding: 20px;
+    font-size: 23px;
+}
+
+.port-links a:hover {
+    background-color: teal;
+    color: white;
+}
+
+
+.our-portfolio {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.portfolio-photo {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.portfolio-photo img {
+    width: 33.1%;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-photo img:hover {
+    opacity: 50%;
+    transition: 1s;
+}
+
+.testimonial {
+    height: 25rem;
+    width: 100%;
+    background-image: url(../img/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 0;
+    margin: auto;
+}
+
+.test-container {
+    font-size: 1rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 25rem;
+    border: solid;
+    margin-top: 0;
+}
+
+
+
+.pricing-container {
+    width: 85%;
+    padding: 5%;
+    margin: auto;
+}
+
+.price-card1,
+.price-card2 {
+    width: 30%;
+    display: inline-block;
+    padding: 20px;
+    height: 600px;
+    border-top: solid thin;
+    box-shadow: 5px 13px 29px 2px #AAAAAA;
+    margin: 1%;
+}
+
+.price-card1 p,
+.price-card2 p {
+    font-size: 22px;
+}
+
+.price-card1 .top-card {
+    background-color: rgb(235, 230, 230);
+    width: 90%;
+    height: 180px;
+    padding: 10px;
+}
+
+.price-card1 .top-card h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.price-card1 .top-card span {
+    font-size: 30px;
+    color: black;
+}
+
+.price-card1 a {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+
+.price-card2 .top-card {
+    background-color: rgb(62, 158, 221);
+    color: white;
+    width: 90%;
+    height: 180px;
+    padding: 10px;
+}
+
+.price-card2 a {
+    background-color: rgb(120, 190, 236);
+    color: white;
+    ;
+    padding: 20px;
+}
+
+.price-card2 .top-card h1 {
+    font-size: 40px;
+    margin: 0;
+    color: white;
+}
+
+.price-card2 .top-card span {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+/*Media*/
+
+@media screen and (max-width: 1450px) {
+    .c-arrows {
+        width: 95% !important;
+        position: absolute !important;
+        z-index: 1000;
+        padding-top: 4% !important;
+        left: 2%;
+    }
+
+    .btn-more {
+        width: 18%;
+        top: 25%;
+        position: absolute !important;
+        left: 85%;
+
+    }
+
+    .tree {
+        margin-top: 25%;
+    }
+
+    .pricing-container {
+        width: 100% !important;
+        padding: 0% !important;
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .navbar-nav a {
+        text-align: center;
+
+    }
+
+    .c-arrows {
+        white-space: nowrap;
+        width: 100% !important;
+        position: static !important;
+        text-align: center;
+    }
+
+    .c-arrows ul {
+        margin: 0 !important;
+        padding: 2% !important;
+    }
+
+    .tree {
+        margin-top: 0% !important;
+    }
+
+    .btn-more {
+        width: 100%;
+        top: 25%;
+        position: static !important;
+        left: 80%;
+
+    }
+
+    .about-left,
+    .about-right,
+
+
+    .map,
+    .port-links,
+    .our-team img {
+        min-width: 100% !important;
+        margin: auto;
+    }
+
+
+    .contact-us,
+    .contus {
+        min-width: 100%;
+        /* margin-top: 7rem; */
+        padding: 2% !important;
+    }
+
+
+
+    .contact-us .contus {
+        width: 100%;
+        border: solid thin;
+        margin-top: 5rem;
+
+    }
+
+    .port-links a {
+        width: 99%;
+    }
+
+
+
+    .our-portfolio {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .portfolio-photo {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .portfolio-photo img {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    .counter-container {
+        width: 100%;
+        height: 80rem;
+    }
+
+    .counter-container .cnt {
+        padding: 2rem;
+        color: white;
+        /* width: 100%; */
+        font-size: 2rem;
+        display: block;
+    }
+
+    .pricing-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .price-card1,
+    .price-card2 {
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+
+    .counters {
+        background-image: url(../img/counters-bg.jpg);
+        background-position: top;
+        width: 100%;
+        height: 100%;
+    }
+
+}
